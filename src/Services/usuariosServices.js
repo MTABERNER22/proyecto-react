@@ -1,5 +1,5 @@
 export async function login(data){
-    return fetch(`http://localhost:3002/users/login/`,{
+    return fetch(`https://proyecto-api-53a1c99f417c.herokuapp.com/users/login/`,{
         method:"POST",
         headers:{
             'Content-Type':"application/json"
@@ -10,7 +10,7 @@ export async function login(data){
  }
 
 export async function create(data){
-    return fetch(`http://localhost:3002/users/`,{
+    return fetch(`https://proyecto-api-53a1c99f417c.herokuapp.com/users/`,{
         method:"POST",
         headers:{
             'Content-Type':"application/json"
